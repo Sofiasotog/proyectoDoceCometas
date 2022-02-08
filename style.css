@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 /* contenedor que engloba todos los grid y etiquetas */
-.contenedor{
+.container{
     width: 100%;
     max-width: 1000%;
     margin: o auto;
@@ -231,3 +231,6 @@ font-style: bold;
             width: 100%;
         }
     }
+
+/* tamaños de pantalla */
+

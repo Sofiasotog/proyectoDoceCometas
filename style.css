@@ -19,6 +19,9 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     font-family: 'Bodoni Moda', serif;
+    width: 100vw;
+    overflow-x: hidden;
+
 }
 header{
     background-color: #b8926a;

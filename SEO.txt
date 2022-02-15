@@ -1,0 +1,9 @@
+seo
+e agregó descripción y palabras clave en todos los html, varían un poco las palabras clave pero en general traen una base.
+mixin
+aparte de seo se agregó un mixin en 
+extend
+
+mapa
+
+sitemap

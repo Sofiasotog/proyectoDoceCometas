@@ -1,0 +1,40 @@
+/* variables */
+
+$colorPrincipal: #b8926a;
+$colorSecundario: #d4c8be;
+
+/* listas */
+
+$listaColores: #b8926a, #d4c8be, white;
+
+
+/* mapa */
+
+$listaColores: (
+ primario: #b8926a,
+ secundario: #d4c8be,
+ bg: white,
+ hover-primario: darken(#b8926a, 30),
+);
+
+$headers: (
+    h1: 4em,
+    h2: 3em,
+    h3: 2em
+);
+
+/* extend */
+%grid{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+
+}
+
+/* mixin */
+
+@mixin grids ($align, $justify){
+    display: grid;
+    align-items: $align;
+    justify-content: $justify;
+}

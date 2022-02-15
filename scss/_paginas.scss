@@ -91,6 +91,7 @@ a.active,a:hover{
 
 /*grid para pagina de servicios*/
 .gridServicios{
+    @extend %grid;
     width: 80%;
     display: grid;
     margin: 8%;
@@ -143,6 +144,7 @@ font-style: bold;
 }
 /* grid pagina Nosotros */
 .gridNosotros{
+    @include grids(left, left);
     width: 100%;
     margin: 5%;
 }
@@ -259,6 +261,13 @@ font-style: bold;
     height: 70px;
 }
 }
+
+/* aplicación de mapas, mixin y extend */
+/* mapa */
+h2{
+    background-color: map-get($listaColores, $hover-primario);
+}
+/* extend */
 
 
 
